@@ -1,0 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package util.exception;
+
+/**
+ *
+ * @author jiajun
+ */
+public class EntityManagerException extends Exception {
+
+    EntityManagerException() {
+    }
+    
+
+    EntityManagerException(String data)
+    {
+        super(data);
+    }
+    
+}
